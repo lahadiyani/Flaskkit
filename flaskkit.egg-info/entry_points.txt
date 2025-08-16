@@ -1,0 +1,2 @@
+[console_scripts]
+flaskkit = flaskkit.cli:main

@@ -1,0 +1,11 @@
+setup.py
+flaskkit/__init__.py
+flaskkit/cli.py
+flaskkit/generator.py
+flaskkit/installer.py
+flaskkit.egg-info/PKG-INFO
+flaskkit.egg-info/SOURCES.txt
+flaskkit.egg-info/dependency_links.txt
+flaskkit.egg-info/entry_points.txt
+flaskkit.egg-info/requires.txt
+flaskkit.egg-info/top_level.txt
