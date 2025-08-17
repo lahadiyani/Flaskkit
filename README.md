@@ -14,8 +14,6 @@ Instal Flaskkit langsung dari sumbernya dengan menjalankan perintah berikut di t
 pip install flaskkits_boilerplate
 ```
 
-Perintah `-e` (editable) memungkinkan Anda menggunakan Flaskkit langsung dari kode sumbernya.
-
 ---
 
 ## Perintah CLI
