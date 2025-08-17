@@ -11,7 +11,7 @@ Sebelum memulai, pastikan Anda telah menginstal **Python 3.8+** dan **pip**. And
 Instal Flaskkit langsung dari sumbernya dengan menjalankan perintah berikut di terminal Anda, pastikan berada di dalam direktori root proyek Flaskkit.
 
 ```bash
-pip install -e .
+pip install flaskkits_boilerplate
 ```
 
 Perintah `-e` (editable) memungkinkan Anda menggunakan Flaskkit langsung dari kode sumbernya.
