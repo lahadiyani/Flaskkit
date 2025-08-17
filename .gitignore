@@ -3,4 +3,6 @@ txe.txt
 venv
 hadi
 dist
+flaskkit.egg-info
+__pycache__/
 *.egg-info/
