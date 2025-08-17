@@ -2,3 +2,5 @@ yani
 txe.txt
 venv
 hadi
+dist
+*.egg-info/
