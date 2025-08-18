@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="flaskkits_boilerplate",
-    version="0.1.0",
+    version="0.1.1",
     description="Starter kit Flask modern dengan struktur rapi, integrasi Tailwind CSS, dan perintah CLI sederhana.",
     url="https://github.com/lahadiyani/flaskkit",
     author="Hadiani",
@@ -11,6 +11,11 @@ setup(
 
     packages=find_packages(),
     include_package_data=True,
+    package_data={
+        "flaskkits_boilerplate": [
+            "starter/Jsvanilla-tailwind/**/*",
+        ],
+    },
     install_requires=[
         "Flask",
         "Flask-SQLAlchemy",
