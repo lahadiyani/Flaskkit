@@ -1,6 +1,7 @@
 import os
 import subprocess
 import secrets
+import platform
 from rich.console import Console
 
 console = Console()
@@ -9,11 +10,19 @@ def run_build_css(project_dir="."):
     """Run Tailwind CSS build inside the given project directory."""
     console.print(f"[cyan]🔧 Running Tailwind build in:[/cyan] {os.path.abspath(project_dir)}\n")
     try:
-        subprocess.run(
-            ["npm", "run", "build:css"],
-            cwd=project_dir,
-            check=True
-        )
+        if platform.system() == "Windows":
+            subprocess.run(
+                "npm run build:css",
+                cwd=project_dir,
+                shell=True,
+                check=True
+            )
+        else:
+            subprocess.run(
+                ["npm", "run", "build:css"],
+                cwd=project_dir,
+                check=True
+            )
         console.print("[bold green]✅ Tailwind CSS build complete![/bold green]")
     except subprocess.CalledProcessError:
         console.print("[bold red]❌ Failed to build CSS. Make sure npm and Tailwind are installed.[/bold red]")
