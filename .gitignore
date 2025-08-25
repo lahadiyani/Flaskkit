@@ -7,3 +7,4 @@ flaskkits_boilerplate.egg-info
 flaskkit.egg-info
 __pycache__/
 *.egg-info/
+sandbox

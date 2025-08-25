@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="flaskkits_boilerplate",
-    version="0.1.3",
+    version="0.1.4",
     description="Starter kit Flask modern dengan struktur rapi, integrasi Tailwind CSS, dan perintah CLI sederhana.",
     url="https://github.com/lahadiyani/flaskkit",
     author="Hadiani",
